@@ -72,6 +72,28 @@ section.imagem{
         background-attachment: fixed;
 }
 
+section.imagem01::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('imagens/bird-9432600_1280.jpg');
+    z-index: -1;
+}
+
+section.imagem02::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('imagens/field-9322539_1280.jpg');
+    z-index: -1;
+}
+
 section.imagem > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.378);
